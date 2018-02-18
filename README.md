@@ -3,15 +3,15 @@
 Remember to:
 - add `manager-script` role to `tomcat-users.xml`.
 - `<plugin> `<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<groupId>org.apache.tomcat.maven</groupId> `<br />`
-	<artifactId>tomcat7-maven-plugin</artifactId>
-	<version>2.2</version>
-	<configuration>
-	<url>http://localhost:8080/manager/text</url>
-	<server>TomcatServer</server>
-	<path>/mkyongWebApp</path>
-	</configuration>
-  </plugin>` into `pom.xml`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<groupId>org.apache.tomcat.maven</groupId> `<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<artifactId>tomcat7-maven-plugin</artifactId> `<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<version>2.2</version> `<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<configuration> `<br /> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<url>http://localhost:8080/manager/text</url> `<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<server>TomcatServer</server> `<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<path>/mkyongWebApp</path> `<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`</configuration> `<br />
+  `</plugin>` into `pom.xml`
 - `<server>
 	<id>TomcatServer</id>
 	<username>TOMCATUSRNM</username>
