@@ -12,8 +12,8 @@ Remember to:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<path>/mkyongWebApp</path> `<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`</configuration> `<br />
   `</plugin>` into `pom.xml`
-- `<server>
-	<id>TomcatServer</id>
-	<username>TOMCATUSRNM</username>
-	<password>TOMCATPSSWD</password>
-   </server>` into maven conf `settings.xml`
+- `<server> `<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<id>TomcatServer</id> `<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<username>TOMCATUSRNM</username> `<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`<password>TOMCATPSSWD</password> `<br />
+   `</server>` into maven conf `settings.xml`
