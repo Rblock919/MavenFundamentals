@@ -3,7 +3,7 @@
 Remember to:
 - add `manager-script` role to `tomcat-users.xml`.
 - `<plugin> `<br />`
-	<groupId>org.apache.tomcat.maven</groupId>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<groupId>org.apache.tomcat.maven</groupId> `<br />`
 	<artifactId>tomcat7-maven-plugin</artifactId>
 	<version>2.2</version>
 	<configuration>
